@@ -1,0 +1,101 @@
+2024-12-07 16:48:42 | DEBUG | main:handle_conversation:19 - [聊天记录]: []
+2024-12-07 16:50:11 | DEBUG | conversation_agent:chat_with_history:101 - content='太好了！我们可以先练习在餐厅点餐。假设你现在正在餐厅，准备点餐。你会怎么开始？\n\n（提供示范句子）\n- Example Sentence 1: “Could I see the menu, please?”\n- Example Sentence 2: “What’s good today?”\n- Example Sentence 3: “I’d like to order something vegetarian.”' response_metadata={'model': 'llama3.1:8b-instruct-q8_0', 'created_at': '2024-12-07T08:50:11.489939913Z', 'done': True, 'done_reason': 'stop', 'total_duration': 88726143905, 'load_duration': 1053757898, 'prompt_eval_count': 1153, 'prompt_eval_duration': 71913000000, 'eval_count': 82, 'eval_duration': 15430000000, 'message': Message(role='assistant', content='', images=None, tool_calls=None)} id='run-9e9306d3-505f-4c70-868b-934825893ddf-0' usage_metadata={'input_tokens': 1153, 'output_tokens': 82, 'total_tokens': 1235}
+2024-12-07 16:50:11 | INFO | main:handle_conversation:22 - [ChatBot]: 太好了！我们可以先练习在餐厅点餐。假设你现在正在餐厅，准备点餐。你会怎么开始？
+
+（提供示范句子）
+- Example Sentence 1: “Could I see the menu, please?”
+- Example Sentence 2: “What’s good today?”
+- Example Sentence 3: “I’d like to order something vegetarian.”
+2024-12-07 16:50:55 | DEBUG | main:handle_conversation:19 - [聊天记录]: [['hello, can we practice English in restaurant?', '太好了！我们可以先练习在餐厅点餐。假设你现在正在餐厅，准备点餐。你会怎么开始？\n\n（提供示范句子）\n- Example Sentence 1: “Could I see the menu, please?”\n- Example Sentence 2: “What’s good today?”\n- Example Sentence 3: “I’d like to order something vegetarian.”']]
+2024-12-07 16:51:21 | DEBUG | conversation_agent:chat_with_history:101 - content='做得很好！你在问饮料的同时也展示了礼貌。\n\n**AI 回复：**\n"Of course! What kind of drink would you like? We have water, juice, soda, or coffee. Would you like to try our fresh lemonade today?"\n\n（提供示范句子）\n- Example Sentence 1: “I’d like a glass of water, please.”\n- Example Sentence 2: “Do you have any recommendations for drinks?”\n- Example Sentence 3: “Can I have a cup of coffee with milk and sugar, please?”\n\n现在，你可以继续点餐了！' response_metadata={'model': 'llama3.1:8b-instruct-q8_0', 'created_at': '2024-12-07T08:51:21.935821672Z', 'done': True, 'done_reason': 'stop', 'total_duration': 26294285543, 'load_duration': 8561149, 'prompt_eval_count': 1251, 'prompt_eval_duration': 1453000000, 'eval_count': 128, 'eval_duration': 24822000000, 'message': Message(role='assistant', content='', images=None, tool_calls=None)} id='run-8a8fee45-1d3c-4197-8148-3fbb0b7c20bb-0' usage_metadata={'input_tokens': 1251, 'output_tokens': 128, 'total_tokens': 1379}
+2024-12-07 16:51:21 | INFO | main:handle_conversation:22 - [ChatBot]: 做得很好！你在问饮料的同时也展示了礼貌。
+
+**AI 回复：**
+"Of course! What kind of drink would you like? We have water, juice, soda, or coffee. Would you like to try our fresh lemonade today?"
+
+（提供示范句子）
+- Example Sentence 1: “I’d like a glass of water, please.”
+- Example Sentence 2: “Do you have any recommendations for drinks?”
+- Example Sentence 3: “Can I have a cup of coffee with milk and sugar, please?”
+
+现在，你可以继续点餐了！
+2024-12-07 16:51:48 | DEBUG | main:handle_conversation:19 - [聊天记录]: [['hello, can we practice English in restaurant?', '太好了！我们可以先练习在餐厅点餐。假设你现在正在餐厅，准备点餐。你会怎么开始？\n\n（提供示范句子）\n- Example Sentence 1: “Could I see the menu, please?”\n- Example Sentence 2: “What’s good today?”\n- Example Sentence 3: “I’d like to order something vegetarian.”'], ['Can I have some drink please?', '做得很好！你在问饮料的同时也展示了礼貌。\n\n**AI 回复：**\n"Of course! What kind of drink would you like? We have water, juice, soda, or coffee. Would you like to try our fresh lemonade today?"\n\n（提供示范句子）\n- Example Sentence 1: “I’d like a glass of water, please.”\n- Example Sentence 2: “Do you have any recommendations for drinks?”\n- Example Sentence 3: “Can I have a cup of coffee with milk and sugar, please?”\n\n现在，你可以继续点餐了！']]
+2024-12-07 16:52:27 | DEBUG | conversation_agent:chat_with_history:101 - content='做得不错！你已经点了一种饮料。\n\n**AI 回复：**\n"Great choice! Our apple juice is freshly squeezed. I\'ll bring it right out to you."\n\n（提供示范句子）\n- Example Sentence 1: “How much does the apple juice cost?”\n- Example Sentence 2: “Can I have a slice of lemon with my apple juice, please?”\n- Example Sentence 3: “Will the apple juice be ready soon?”\n\n现在，你可以继续点餐了！例如，想点菜还是询问其他问题？\n\n（提供示范句子）\n- Example Sentence 1: “What do you recommend for lunch?”\n- Example Sentence 2: “Can I see a picture of your specials, please?”\n- Example Sentence 3: “I’d like to order the grilled chicken sandwich.”\n\n你可以选择任何一种方式继续对话。' response_metadata={'model': 'llama3.1:8b-instruct-q8_0', 'created_at': '2024-12-07T08:52:27.893593128Z', 'done': True, 'done_reason': 'stop', 'total_duration': 38963989565, 'load_duration': 12417318, 'prompt_eval_count': 1393, 'prompt_eval_duration': 1374000000, 'eval_count': 187, 'eval_duration': 37564000000, 'message': Message(role='assistant', content='', images=None, tool_calls=None)} id='run-c3993625-870a-4ab5-9cb9-4f7ed462700d-0' usage_metadata={'input_tokens': 1393, 'output_tokens': 187, 'total_tokens': 1580}
+2024-12-07 16:52:27 | INFO | main:handle_conversation:22 - [ChatBot]: 做得不错！你已经点了一种饮料。
+
+**AI 回复：**
+"Great choice! Our apple juice is freshly squeezed. I'll bring it right out to you."
+
+（提供示范句子）
+- Example Sentence 1: “How much does the apple juice cost?”
+- Example Sentence 2: “Can I have a slice of lemon with my apple juice, please?”
+- Example Sentence 3: “Will the apple juice be ready soon?”
+
+现在，你可以继续点餐了！例如，想点菜还是询问其他问题？
+
+（提供示范句子）
+- Example Sentence 1: “What do you recommend for lunch?”
+- Example Sentence 2: “Can I see a picture of your specials, please?”
+- Example Sentence 3: “I’d like to order the grilled chicken sandwich.”
+
+你可以选择任何一种方式继续对话。
+2024-12-07 16:53:37 | DEBUG | main:handle_conversation:19 - [聊天记录]: [['hello, can we practice English in restaurant?', '太好了！我们可以先练习在餐厅点餐。假设你现在正在餐厅，准备点餐。你会怎么开始？\n\n（提供示范句子）\n- Example Sentence 1: “Could I see the menu, please?”\n- Example Sentence 2: “What’s good today?”\n- Example Sentence 3: “I’d like to order something vegetarian.”'], ['Can I have some drink please?', '做得很好！你在问饮料的同时也展示了礼貌。\n\n**AI 回复：**\n"Of course! What kind of drink would you like? We have water, juice, soda, or coffee. Would you like to try our fresh lemonade today?"\n\n（提供示范句子）\n- Example Sentence 1: “I’d like a glass of water, please.”\n- Example Sentence 2: “Do you have any recommendations for drinks?”\n- Example Sentence 3: “Can I have a cup of coffee with milk and sugar, please?”\n\n现在，你可以继续点餐了！'], ['I want apple juice.', '做得不错！你已经点了一种饮料。\n\n**AI 回复：**\n"Great choice! Our apple juice is freshly squeezed. I\'ll bring it right out to you."\n\n（提供示范句子）\n- Example Sentence 1: “How much does the apple juice cost?”\n- Example Sentence 2: “Can I have a slice of lemon with my apple juice, please?”\n- Example Sentence 3: “Will the apple juice be ready soon?”\n\n现在，你可以继续点餐了！例如，想点菜还是询问其他问题？\n\n（提供示范句子）\n- Example Sentence 1: “What do you recommend for lunch?”\n- Example Sentence 2: “Can I see a picture of your specials, please?”\n- Example Sentence 3: “I’d like to order the grilled chicken sandwich.”\n\n你可以选择任何一种方式继续对话。']]
+2024-12-07 16:54:27 | DEBUG | conversation_agent:chat_with_history:101 - content='做得很好！你在询问推荐菜品，展现了与服务员沟通的能力。\n\n**AI 回复：**\n"Today\'s special is our grilled salmon with garlic butter. It\'s a popular choice among our customers, and it\'s very flavorful. We also have a delicious vegetarian option, our quinoa bowl, which comes with roasted vegetables and a side of hummus."\n\n（提供示范句子）\n- Example Sentence 1: “What do you think pairs well with the salmon?”\n- Example Sentence 2: “Can I get a side salad with my meal?”\n- Example Sentence 3: “I’ll take the quinoa bowl, please.”\n\n现在，你已经点了饮料和餐食。你可以继续询问关于支付的问题。\n\n（提供示范句子）\n- Example Sentence 1: “How much will it cost for lunch today?”\n- Example Sentence 2: “Can I pay with my credit card?”\n- Example Sentence 3: “Will you bring the bill when you deliver our food?”\n\n你可以继续问任何关于支付的问题！' response_metadata={'model': 'llama3.1:8b-instruct-q8_0', 'created_at': '2024-12-07T08:54:27.242630316Z', 'done': True, 'done_reason': 'stop', 'total_duration': 49983824990, 'load_duration': 8634247, 'prompt_eval_count': 1596, 'prompt_eval_duration': 1673000000, 'eval_count': 229, 'eval_duration': 48281000000, 'message': Message(role='assistant', content='', images=None, tool_calls=None)} id='run-2c9eca89-e910-4933-baa1-936a4c18609d-0' usage_metadata={'input_tokens': 1596, 'output_tokens': 229, 'total_tokens': 1825}
+2024-12-07 16:54:27 | INFO | main:handle_conversation:22 - [ChatBot]: 做得很好！你在询问推荐菜品，展现了与服务员沟通的能力。
+
+**AI 回复：**
+"Today's special is our grilled salmon with garlic butter. It's a popular choice among our customers, and it's very flavorful. We also have a delicious vegetarian option, our quinoa bowl, which comes with roasted vegetables and a side of hummus."
+
+（提供示范句子）
+- Example Sentence 1: “What do you think pairs well with the salmon?”
+- Example Sentence 2: “Can I get a side salad with my meal?”
+- Example Sentence 3: “I’ll take the quinoa bowl, please.”
+
+现在，你已经点了饮料和餐食。你可以继续询问关于支付的问题。
+
+（提供示范句子）
+- Example Sentence 1: “How much will it cost for lunch today?”
+- Example Sentence 2: “Can I pay with my credit card?”
+- Example Sentence 3: “Will you bring the bill when you deliver our food?”
+
+你可以继续问任何关于支付的问题！
+2024-12-07 16:55:54 | DEBUG | main:handle_conversation:19 - [聊天记录]: [['hello, can we practice English in restaurant?', '太好了！我们可以先练习在餐厅点餐。假设你现在正在餐厅，准备点餐。你会怎么开始？\n\n（提供示范句子）\n- Example Sentence 1: “Could I see the menu, please?”\n- Example Sentence 2: “What’s good today?”\n- Example Sentence 3: “I’d like to order something vegetarian.”'], ['Can I have some drink please?', '做得很好！你在问饮料的同时也展示了礼貌。\n\n**AI 回复：**\n"Of course! What kind of drink would you like? We have water, juice, soda, or coffee. Would you like to try our fresh lemonade today?"\n\n（提供示范句子）\n- Example Sentence 1: “I’d like a glass of water, please.”\n- Example Sentence 2: “Do you have any recommendations for drinks?”\n- Example Sentence 3: “Can I have a cup of coffee with milk and sugar, please?”\n\n现在，你可以继续点餐了！'], ['I want apple juice.', '做得不错！你已经点了一种饮料。\n\n**AI 回复：**\n"Great choice! Our apple juice is freshly squeezed. I\'ll bring it right out to you."\n\n（提供示范句子）\n- Example Sentence 1: “How much does the apple juice cost?”\n- Example Sentence 2: “Can I have a slice of lemon with my apple juice, please?”\n- Example Sentence 3: “Will the apple juice be ready soon?”\n\n现在，你可以继续点餐了！例如，想点菜还是询问其他问题？\n\n（提供示范句子）\n- Example Sentence 1: “What do you recommend for lunch?”\n- Example Sentence 2: “Can I see a picture of your specials, please?”\n- Example Sentence 3: “I’d like to order the grilled chicken sandwich.”\n\n你可以选择任何一种方式继续对话。'], ['What do you recommend for lunch?', '做得很好！你在询问推荐菜品，展现了与服务员沟通的能力。\n\n**AI 回复：**\n"Today\'s special is our grilled salmon with garlic butter. It\'s a popular choice among our customers, and it\'s very flavorful. We also have a delicious vegetarian option, our quinoa bowl, which comes with roasted vegetables and a side of hummus."\n\n（提供示范句子）\n- Example Sentence 1: “What do you think pairs well with the salmon?”\n- Example Sentence 2: “Can I get a side salad with my meal?”\n- Example Sentence 3: “I’ll take the quinoa bowl, please.”\n\n现在，你已经点了饮料和餐食。你可以继续询问关于支付的问题。\n\n（提供示范句子）\n- Example Sentence 1: “How much will it cost for lunch today?”\n- Example Sentence 2: “Can I pay with my credit card?”\n- Example Sentence 3: “Will you bring the bill when you deliver our food?”\n\n你可以继续问任何关于支付的问题！']]
+2024-12-07 16:56:41 | DEBUG | conversation_agent:chat_with_history:101 - content='做得很好！你已经点了餐食，并询问价格。\n\n**AI 回复：**\n"The grilled salmon special is $25, and it comes with a side of garlic mashed potatoes. We also have a small salad or soup for an additional $5. Would you like to add either of those?"\n\n（提供示范句子）\n- Example Sentence 1: “Is the price included tax?”\n- Example Sentence 2: “Can I get a to-go box with my meal?”\n- Example Sentence 3: “I’ll just have the salmon, please.”\n\n现在，你需要决定是否加餐或支付。\n\n（提供示范句子）\n- Example Sentence 1: “I’d like to add the small salad.”\n- Example Sentence 2: “Can I get a coffee with my meal?”\n- Example Sentence 3: “I’m ready to pay, how do you want me to pay?”\n\n你可以继续完成支付过程！' response_metadata={'model': 'llama3.1:8b-instruct-q8_0', 'created_at': '2024-12-07T08:56:41.480476079Z', 'done': True, 'done_reason': 'stop', 'total_duration': 46555165326, 'load_duration': 8668744, 'prompt_eval_count': 1847, 'prompt_eval_duration': 2449000000, 'eval_count': 199, 'eval_duration': 44071000000, 'message': Message(role='assistant', content='', images=None, tool_calls=None)} id='run-c95be529-80a0-4c38-8d4f-b7aae1eab119-0' usage_metadata={'input_tokens': 1847, 'output_tokens': 199, 'total_tokens': 2046}
+2024-12-07 16:56:41 | INFO | main:handle_conversation:22 - [ChatBot]: 做得很好！你已经点了餐食，并询问价格。
+
+**AI 回复：**
+"The grilled salmon special is $25, and it comes with a side of garlic mashed potatoes. We also have a small salad or soup for an additional $5. Would you like to add either of those?"
+
+（提供示范句子）
+- Example Sentence 1: “Is the price included tax?”
+- Example Sentence 2: “Can I get a to-go box with my meal?”
+- Example Sentence 3: “I’ll just have the salmon, please.”
+
+现在，你需要决定是否加餐或支付。
+
+（提供示范句子）
+- Example Sentence 1: “I’d like to add the small salad.”
+- Example Sentence 2: “Can I get a coffee with my meal?”
+- Example Sentence 3: “I’m ready to pay, how do you want me to pay?”
+
+你可以继续完成支付过程！
+2024-12-07 16:59:13 | DEBUG | main:handle_conversation:19 - [聊天记录]: [['hello, can we practice English in restaurant?', '太好了！我们可以先练习在餐厅点餐。假设你现在正在餐厅，准备点餐。你会怎么开始？\n\n（提供示范句子）\n- Example Sentence 1: “Could I see the menu, please?”\n- Example Sentence 2: “What’s good today?”\n- Example Sentence 3: “I’d like to order something vegetarian.”'], ['Can I have some drink please?', '做得很好！你在问饮料的同时也展示了礼貌。\n\n**AI 回复：**\n"Of course! What kind of drink would you like? We have water, juice, soda, or coffee. Would you like to try our fresh lemonade today?"\n\n（提供示范句子）\n- Example Sentence 1: “I’d like a glass of water, please.”\n- Example Sentence 2: “Do you have any recommendations for drinks?”\n- Example Sentence 3: “Can I have a cup of coffee with milk and sugar, please?”\n\n现在，你可以继续点餐了！'], ['I want apple juice.', '做得不错！你已经点了一种饮料。\n\n**AI 回复：**\n"Great choice! Our apple juice is freshly squeezed. I\'ll bring it right out to you."\n\n（提供示范句子）\n- Example Sentence 1: “How much does the apple juice cost?”\n- Example Sentence 2: “Can I have a slice of lemon with my apple juice, please?”\n- Example Sentence 3: “Will the apple juice be ready soon?”\n\n现在，你可以继续点餐了！例如，想点菜还是询问其他问题？\n\n（提供示范句子）\n- Example Sentence 1: “What do you recommend for lunch?”\n- Example Sentence 2: “Can I see a picture of your specials, please?”\n- Example Sentence 3: “I’d like to order the grilled chicken sandwich.”\n\n你可以选择任何一种方式继续对话。'], ['What do you recommend for lunch?', '做得很好！你在询问推荐菜品，展现了与服务员沟通的能力。\n\n**AI 回复：**\n"Today\'s special is our grilled salmon with garlic butter. It\'s a popular choice among our customers, and it\'s very flavorful. We also have a delicious vegetarian option, our quinoa bowl, which comes with roasted vegetables and a side of hummus."\n\n（提供示范句子）\n- Example Sentence 1: “What do you think pairs well with the salmon?”\n- Example Sentence 2: “Can I get a side salad with my meal?”\n- Example Sentence 3: “I’ll take the quinoa bowl, please.”\n\n现在，你已经点了饮料和餐食。你可以继续询问关于支付的问题。\n\n（提供示范句子）\n- Example Sentence 1: “How much will it cost for lunch today?”\n- Example Sentence 2: “Can I pay with my credit card?”\n- Example Sentence 3: “Will you bring the bill when you deliver our food?”\n\n你可以继续问任何关于支付的问题！'], ["OK, I'll take the special. How much it cost?", '做得很好！你已经点了餐食，并询问价格。\n\n**AI 回复：**\n"The grilled salmon special is $25, and it comes with a side of garlic mashed potatoes. We also have a small salad or soup for an additional $5. Would you like to add either of those?"\n\n（提供示范句子）\n- Example Sentence 1: “Is the price included tax?”\n- Example Sentence 2: “Can I get a to-go box with my meal?”\n- Example Sentence 3: “I’ll just have the salmon, please.”\n\n现在，你需要决定是否加餐或支付。\n\n（提供示范句子）\n- Example Sentence 1: “I’d like to add the small salad.”\n- Example Sentence 2: “Can I get a coffee with my meal?”\n- Example Sentence 3: “I’m ready to pay, how do you want me to pay?”\n\n你可以继续完成支付过程！']]
+2024-12-07 17:01:36 | DEBUG | conversation_agent:chat_with_history:101 - content='做得很好！你已经点了餐食，并询问支付方式。\n\n**AI 回复：**\n"We accept cash, credit cards, and mobile payments. If you\'d like to use your credit card, I can just swipe it here for you. Or if you prefer to pay with cash, I can ring up the total and you can give me the exact amount."\n\n（提供示范句子）\n- Example Sentence 1: “Can I get a receipt?”\n- Example Sentence 2: “Do you accept mobile payments like Apple Pay or Google Pay?”\n- Example Sentence 3: “I\'d like to pay with my debit card.”\n\n现在，你已经准备好支付了！\n\n（提供示范句子）\n- Example Sentence 1: “Here\'s my credit card.”\n- Example Sentence 2: “Can I get a refund if I don\'t want my meal?”\n- Example Sentence 3: “Thank you for your service, the total comes out to be $30.50.”\n\n你可以继续完成支付过程！' response_metadata={'model': 'llama3.1:8b-instruct-q8_0', 'created_at': '2024-12-07T09:01:36.237204033Z', 'done': True, 'done_reason': 'stop', 'total_duration': 142491766388, 'load_duration': 8629350, 'prompt_eval_count': 2045, 'prompt_eval_duration': 93166000000, 'eval_count': 216, 'eval_duration': 49287000000, 'message': Message(role='assistant', content='', images=None, tool_calls=None)} id='run-60a1d419-d82f-41f7-96d1-33ddc6a36c58-0' usage_metadata={'input_tokens': 2045, 'output_tokens': 216, 'total_tokens': 2261}
+2024-12-07 17:01:36 | INFO | main:handle_conversation:22 - [ChatBot]: 做得很好！你已经点了餐食，并询问支付方式。
+
+**AI 回复：**
+"We accept cash, credit cards, and mobile payments. If you'd like to use your credit card, I can just swipe it here for you. Or if you prefer to pay with cash, I can ring up the total and you can give me the exact amount."
+
+（提供示范句子）
+- Example Sentence 1: “Can I get a receipt?”
+- Example Sentence 2: “Do you accept mobile payments like Apple Pay or Google Pay?”
+- Example Sentence 3: “I'd like to pay with my debit card.”
+
+现在，你已经准备好支付了！
+
+（提供示范句子）
+- Example Sentence 1: “Here's my credit card.”
+- Example Sentence 2: “Can I get a refund if I don't want my meal?”
+- Example Sentence 3: “Thank you for your service, the total comes out to be $30.50.”
+
+你可以继续完成支付过程！
