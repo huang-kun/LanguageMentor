@@ -10,6 +10,8 @@ from langchain_core.chat_history import (
 )
 from langchain_core.runnables.history import RunnableWithMessageHistory  # 导入带有消息历史的可运行类
 
+import os
+
 # 用于存储会话历史的字典
 store = {}
 
@@ -34,10 +36,19 @@ class ConversationAgent:
     """
     def __init__(self):
         self.name = "Conversation Agent"  # 代理名称
+
+        # Homework for trying new prompt
+        old_prompt_path = os.path.join(os.getcwd(), 'prompts', 'old_conversation_prompt.txt')
+        new_prompt_path = os.path.join(os.path.dirname(old_prompt_path), 'new_conversation_prompt.txt')
+        prompt_path = new_prompt_path if os.path.exists(new_prompt_path) else old_prompt_path
         
         # 读取系统提示语，从文件中加载
-        with open("prompts/conversation_prompt.txt", "r", encoding="utf-8") as file:
+        with open(prompt_path, "r", encoding="utf-8") as file:
             self.system_prompt = file.read().strip()
+
+        print("====== system prompt ======")
+        print(self.system_prompt)
+        print("===========================")
 
         # 创建聊天提示模板，包括系统提示和消息占位符
         self.prompt = ChatPromptTemplate.from_messages([
