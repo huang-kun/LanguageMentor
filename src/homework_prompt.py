@@ -104,35 +104,5 @@ def discover_dating_course_goal_homework():
         output_filename='dating_course_goal.txt'
     )
 
-def improve_rent_prompt_homework():
-    """"""
-    model = 'gpt-4o-mini'
-
-    project_dir = os.getcwd()
-    engineer_prompt_path = os.path.join(project_dir, 'prompts', 'prompt_engineer_prompt.txt')
-    old_teacher_prompt_path = os.path.join(project_dir, 'prompts', 'old_conversation_prompt.txt')
-    
-    with open(engineer_prompt_path, 'r') as f:
-        system_prompt = f.read().strip()
-    with open(old_teacher_prompt_path, 'r') as f:
-        teacher_prompt = f.read().strip()
-
-    start_chat = textwrap.dedent('''
-        Please improve the prompt for AI English teacher with few updates:
-        - Generate 3 English example sentences to facilitate the conversation.
-        - Provide a Format that structure reply content of the AI, including teaching review, example sentences, and AI role-played charactor replies.
-        - DO NOT make big changes for original prompt, just make some adjustments to make sure the generated result from this prompt will be stable.
-        ---- Here is the original prompt inside of the dash line area ----\n''')
-    
-    start_chat += teacher_prompt
-    start_chat += "\n-------------------"
-    
-    start_llm_conversation(
-        model=model, 
-        system_prompt=system_prompt,
-        start_chat=None,
-        output=os.path.join(project_dir, 'conversation', 'homework_chat.txt')
-    )
-
 if __name__ == '__main__':
     discover_dating_course_goal_homework()
