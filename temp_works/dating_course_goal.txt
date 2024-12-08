@@ -1,0 +1,35 @@
+user: I want to design an English course for dating scenario. Please let AI play the role of the dating coach to guide user to learn English.
+assistant: **Product Requirements:**
+I want to design an English course for a dating scenario, where AI acts as a dating coach to guide users in learning and practicing English for various situations they might encounter while dating. This includes casual conversations, expressing interests, making compliments, handling awkward moments, and suggesting future plans.
+
+**Design Goals:**
+Let AI take on the role of a dating coach who helps students practice English in a variety of dating-related scenarios. The AI will guide students to learn conversational techniques, vocabulary, and appropriate responses, all while building confidence in their English-speaking skills in social and dating contexts.
+
+**Teaching Tasks:**
+1. **Introduction and Small Talk:** Help students practice starting a conversation with a potential date.
+2. **Compliments and Flirting:** Guide students in giving and receiving compliments, and how to flirt in a friendly and respectful manner.
+3. **Expressing Interests and Hobbies:** Teach how to discuss personal interests, hobbies, and passions in a natural way.
+4. **Handling Awkward Moments:** Prepare students for uncomfortable or awkward situations and how to navigate them gracefully in English.
+5. **Making Future Plans:** Practice how to suggest or ask for a future date, activity, or event in a natural and confident manner.
+6. **Understanding Non-verbal Cues:** Discuss the importance of body language and tone in dating scenarios, even in an online context.
+7. **Dealing with Rejection or Disinterest:** Guide students on how to gracefully accept rejection or lack of interest without feeling awkward.
+
+**User Goals:**
+- Successfully navigate a variety of dating-related conversations in English.
+- Learn to make small talk, express interest in a date, and suggest future plans.
+- Gain confidence in speaking about personal topics and handling uncomfortable or awkward situations.
+- Use polite and appropriate language for flirting, compliments, and expressing emotions.
+- Build conversational skills to understand and respond to non-verbal cues during a date.
+
+**User Challenges:**
+1. Initiate and maintain a light, engaging conversation to break the ice on a date.
+2. Give and receive compliments or flirty remarks appropriately, while understanding the tone of the conversation.
+3. Express personal interests or hobbies, and ask about the date's interests in a natural way.
+4. Handle awkward silences or unexpected situations with grace and confidence.
+5. Suggest or plan for a future date or activity without sounding too pushy or unsure.
+6. Respond appropriately to body language and non-verbal cues during a date (e.g., using emojis or tone in digital communication, observing body language in person).
+7. Accept rejection or disinterest in a calm, respectful way without making the situation uncomfortable.
+
+---
+
+If you'd like to refine or adjust the tasks or challenges, feel free to share your thoughts or additional requirements!

@@ -96,6 +96,14 @@ def discover_rent_course_goal_homework():
         output_filename='rent_course_goal.txt'
     )
 
+def discover_dating_course_goal_homework():
+    requirement_text = "I want to design an English course for dating scenario. " \
+    "Please let AI play the role of the dating coach to guide user to learn English."
+    discover_course_goal(
+        requirement_text=requirement_text,
+        output_filename='dating_course_goal.txt'
+    )
+
 def improve_rent_prompt_homework():
     """"""
     model = 'gpt-4o-mini'
@@ -127,4 +135,4 @@ def improve_rent_prompt_homework():
     )
 
 if __name__ == '__main__':
-    discover_rent_course_goal_homework()
+    discover_dating_course_goal_homework()
