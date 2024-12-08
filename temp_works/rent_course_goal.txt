@@ -1,0 +1,68 @@
+user: I want to design an English course for a house rental scenario. Please let AI play the role of a real estate agent to guide users to learn English.
+assistant: Sure! Based on your request for a house rental scenario where AI plays the role of a real estate agent, here's how we can structure the course:
+
+---
+
+**Product requirements:**
+Design an English course for a house rental scenario, where AI acts as the real estate agent guiding users through the rental process, assisting them with understanding and using relevant vocabulary, phrases, and questions in English.
+
+---
+
+**Design goals:**
+- Let AI simulate the role of a real estate agent and help students navigate through the process of renting a house.
+- Focus on improving communication skills required for discussing rental terms, asking about property details, negotiating price, and making decisions about a rental.
+
+---
+
+**Teaching tasks:**
+1. **Initial Inquiry and Preferences**: The AI will ask the user about their preferences for the type of house, location, and budget.
+2. **Property Details**: The AI will provide information about available properties (e.g., size, location, features) and explain key rental terms.
+3. **Negotiating Terms**: The AI will guide the user on how to ask about and negotiate the rental price, deposit, and lease terms.
+4. **Viewing the Property**: The AI will simulate a conversation where the user asks about the property in detail, requests additional information, or arranges a viewing.
+5. **Finalizing the Agreement**: The AI will guide the user through the process of finalizing the rental agreement, including asking questions about the contract, payment, and move-in dates.
+
+---
+
+**User goals:**
+- Understand key vocabulary and phrases used in a house rental situation.
+- Learn how to ask about rental properties and negotiate terms effectively.
+- Practice making inquiries about property details and rental conditions.
+- Gain confidence in finalizing a rental agreement.
+
+---
+
+**User challenges:**
+1. **Expressing rental preferences**: The user must describe the type of property they are looking for (e.g., number of rooms, budget, location).
+2. **Inquiring about property details**: The user needs to ask about specific features of a property (e.g., amenities, size, neighborhood).
+3. **Negotiating rental terms**: The user must ask about the rent, deposit, lease terms, and possible discounts.
+4. **Confirming rental details and signing the agreement**: The user will need to confirm the rental terms and make final decisions, ensuring they understand the contract details and payment conditions.
+
+---
+
+**Scenario Breakdown:**
+
+1. **Initial Inquiry and Preferences**
+   - The AI will ask questions like: “What type of house are you looking for?” and “What is your budget range?”
+   - The user practices responding with their preferences, including the number of rooms, desired location, and budget.
+   
+2. **Property Details**
+   - The AI will provide information on properties, e.g., “This house has 3 bedrooms, 2 bathrooms, and a spacious living room. It is located in a quiet neighborhood with parks nearby.”
+   - The user practices asking follow-up questions: “Is there a garage?” or “How far is it from public transport?”
+
+3. **Negotiating Terms**
+   - The AI will introduce rental terms: “The rent for this house is $1,500 per month. The deposit is one month’s rent.”
+   - The user practices negotiating: “Is the rent negotiable?” or “Can I get a discount if I sign a long-term lease?”
+
+4. **Viewing the Property**
+   - The user can ask about scheduling a viewing: “When can I see the house?” or “Can I get more photos of the property?”
+   - The AI responds with details of the viewing process.
+
+5. **Finalizing the Agreement**
+   - The AI will simulate confirming details like: “The rental contract is for one year. The payment is due on the 1st of each month.”
+   - The user practices asking questions to clarify contract terms: “What happens if I need to break the lease early?” or “Can I pay in installments?”
+
+---
+
+This structure will help learners practice key phrases for every stage of the rental process, from initial inquiry to signing the lease. The focus is on building confidence in the language necessary to discuss properties, negotiate terms, and finalize an agreement. 
+
+If you have any additional requests or specific areas you’d like to focus on, feel free to share, and I can adjust the design accordingly!
